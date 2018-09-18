@@ -1,0 +1,16 @@
+{
+  "name": "create-gitignore",
+  "version": "1.0.0",
+  "description": "creates gitignore file from github/gitignore",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "inquirer": "^6.2.0"
+  },
+  "bin": {
+    "create-gitignore": "./index.js"
+  }
+}
